@@ -2,9 +2,9 @@ import dj_database_url
 
 from .settings import *
 
-DEBUG = False
+DEBUG = os.environ.get('DEBUG')
 
-SECRET_KEY = "jz1jhrh&&3^k3i=0m1&h-+s8e0_jt3m!d0=lht6%m@p-s@3)$i"
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 ALLOWED_HOSTS.append('*')
 
