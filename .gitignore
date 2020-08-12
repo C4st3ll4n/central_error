@@ -1,0 +1,3 @@
+central_error/prod_settings.py
+venv/*
+*.pyc
